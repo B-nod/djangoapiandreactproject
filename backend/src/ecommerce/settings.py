@@ -168,6 +168,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
 
     'http://localhost:3000',  # Your frontend URL
+    'http://localhost:3001',
 ]
 
 CORS_ALLOW_CREDENTIALS = True  # If your frontend needs to send cookies or authentication headers

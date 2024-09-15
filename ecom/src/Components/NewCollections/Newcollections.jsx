@@ -22,7 +22,9 @@ const Newcollections = () => {
     <div className="new-collections">
     <h1>New Collections</h1>
     <hr />
-    <div className="collections">
+    <div class="font-[sans-serif] py-4 mx-auto lg:max-w-7xl sm:max-w-full">
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {/* {new_collection.map((item, i)=>{
               return <Card key ={i} id={item.id} name = {item.name} image= {item.image} new_price = {item.new_price} old_price = {item.old_price}/>
         })} */}
@@ -36,7 +38,10 @@ const Newcollections = () => {
             
                 )}
 
+  
     </div>
+    </div>
+ 
     </div>
     </>
   )

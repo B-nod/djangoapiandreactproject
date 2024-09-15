@@ -13,6 +13,7 @@ import Login from './Pages/Login';
 import MyProfile from './Pages/MyProfile';
 import Checkout from './Pages/Checkout';
 import Card from './Components/Card/Card';
+import ProductDetial from './Components/ProductDetial/ProductDetial';
 
 
 const MyRoute = () => {
@@ -24,7 +25,7 @@ const MyRoute = () => {
         <Route path="/womens" element={<Shopcategory banner={women_banner} category="women" />} />
         <Route path="/kids" element={<Shopcategory banner={kid_banner} category="kid" />} />
         {/* <Route path="/products/:productId" element={<Products />} /> */}
-        <Route path="/products/:id" element={<Card />} />
+        <Route path="/product/:productId" element={<ProductDetial/>} />
 
         <Route path="/cart" element={<Cart />} />
         <Route path="/signup" element={<Signup/>} />
