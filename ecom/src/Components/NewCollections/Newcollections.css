@@ -1,0 +1,34 @@
+.new-collections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    margin-bottom: 80px;
+    /* Adjust as needed */
+}
+
+.new-collections h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.new-collections hr {
+    width: 400px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+.collections {
+    display: flex;
+    flex-wrap: wrap;
+    /* Ensure items can wrap to the next line */
+    justify-content: space-evenly;
+    /* Center items horizontally */
+    gap: 20px;
+    /* Add gap between items */
+    /* Ensure it takes full width */
+    margin-top: 50px;
+}

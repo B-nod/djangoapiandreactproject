@@ -1,0 +1,61 @@
+.shopcategory-banner {
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+}
+
+.shopcategory-indexsort {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopcategory-sort {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Vertically aligns the text and image */
+    padding: 8px 20px;
+    /* Adjust padding as per your design */
+    border-radius: 60px;
+    border: 1px solid #888;
+    /* Space between the text and the image */
+}
+
+@media screen and (max-width:423px) {
+    .shopcategory-sort {
+        margin-top: 20px;
+    }
+}
+
+.shopcategory-sort img {
+    padding-left: 10px;
+}
+
+.shopcategory-indexsort p span {
+    font-weight: 600;
+}
+
+.shop-category {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    margin-bottom: 120px;
+}
+
+.shopcategory-products {
+    display: flex;
+    flex-wrap: wrap;
+    /* Ensure items can wrap to the next line */
+    justify-content: space-evenly;
+    /* Center items horizontally */
+    row-gap: 40px;
+    /* Add gap between items */
+    /* Ensure it takes full width */
+    margin-top: 50px;
+}

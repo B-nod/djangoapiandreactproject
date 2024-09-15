@@ -1,0 +1,11 @@
+# Ignore virtual environment folder for Django
+venv/
+
+# Ignore node_modules folder for React
+node_modules/
+
+# Optional: Add any other files or folders you want to ignore
+*.log
+*.pyc
+__pycache__/
+.env

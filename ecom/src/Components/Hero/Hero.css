@@ -1,0 +1,20 @@
+.image-right {
+    height: 570px;
+    width: auto;
+    margin-top: -45px;
+}
+
+@media screen and (max-width: 767px) {
+    .image-right {
+        margin-top: 0;
+        height: 400px;
+        width: auto;
+    }
+    .section h1 {
+        font-size: 40px;
+    }
+}
+
+section {
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+}
