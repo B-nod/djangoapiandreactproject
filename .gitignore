@@ -1,5 +1,5 @@
 # Ignore virtual environment folder for Django
-venv/
+myvenv/
 
 # Ignore node_modules folder for React
 node_modules/
